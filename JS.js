@@ -71,12 +71,12 @@ function renderByNumber1(n,m)
         let str='';
         for(let j=i;j<=m;j++)
         {
-            var ngang = Math.abs(i-1);
-            var doc = Math.abs(j-1);
+           // var ngang = Math.abs(i-1);
+            //var doc = Math.abs(j-1);
             if(i<=j)
                 str+=i;
         }
         console.log(str);
     }
 }
-console.log(renderByNumber1(8,8));
+///======================================//
